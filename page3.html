@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf-8">  <!--huruf rumi-->
+<meta name="viewport" content="width=device-width, initial-scale=1" > <!--fullscreen-->
+<link href="css/jquery.mobile.min.css" rel="stylesheet" type="text/css"  <!-- tema putih-->> 
+<script src="js/jquery.min.js"></script> 
+<!-- asas untuk interface mobile-->
+<script src="js/jquery.mobile.min.js"  ></script> 
+</head> 
+ 
+<body> 
+
+<!-- Ini mukasurat pertama -->
+<div data-role="page">
+<div data-role="panel" data-display="overlay" data-position="right" id="mypanelA"> <!-- by default data-position=right-->
+    <!-- panel content goes here -->
+<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+	<h3>Kandungan</h3>
+    <ul data-role="listview" data-inset="false">
+        <li><a href="index.html" data-transition="pop">Synopsis</a></li>
+        <li><a href="#two" data-transition="pop">Week 1</a></li>
+        <li><a href="#three" data-transition="pop">Week 2</a></li>
+    </ul>
+</div>
+</div>
+
+	<div data-role="header" data-position-"fixed">
+	<a href="#mypanelA" data-icon="home">Menu</a>
+	</div>
+	<div role="main" class="ui-content">
+	<h3>Week 2</h3>
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#">Introduction</a></li> <!-- Link to internal page link -->
+		<li><a href="index.html">Course Outline Discussion</a></li> <!-- Link to external html file -->
+		<li><a href="#">Assignment</a></li>
+	</ul>
+	<br />
+	<a href="index.html" class="ui-btn ui-btn-inline">Back to Synopsis</a>
+	<a href="#pg2" class="ui-btn ui-icon-home ui-btn-icon-right">Back to Week 1</a>
+	</div>
+	<div data-role="footer">
+        <div data-role="navbar" >
+            <ul>
+                <li><a href="#pg1" data-icon="grid" data-transition="slide" data-direction = "reverse">Sinopsis</a></li>
+                <li><a href="#pg2" data-icon="star" class="ui-btn-active" data-transition="slide" data-direction = "reverse">Week 1</a></li>
+                <li><a href="page3.html" data-icon="gear" class="ui-state-persist" data-transition="slide" data-direction = "reverse">Week 2</a></li>
+            </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+</div>
+</body> 
+</html> 

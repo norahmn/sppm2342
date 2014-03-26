@@ -1,0 +1,216 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf-8">  <!--huruf rumi-->
+<meta name="viewport" content="width=device-width, initial-scale=1" > <!--fullscreen-->
+
+	<link rel="stylesheet" href="css/norah.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.0.min.css" /> 
+
+<script src="js/jquery.min.js"></script> 
+
+<!-- asas untuk interface mobile-->
+<script src="js/jquery.mobile.min.js"  ></script> 
+</head> 
+ 
+<body> 
+<!-- Ini mukasurat pertama -->
+<div data-role="page" id="one">
+
+<div data-role="panel" data-display="overlay" data-position="right" id="mypanelA"> <!-- by default data-position=right-->
+    <!-- panel content goes here -->
+<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+	<h3>Kandungan</h3>
+    <ul data-role="listview" data-inset="false">
+        <li><a href="#one" data-transition="pop">Introduction</a></li>
+        <li><a href="#two" data-transition="pop">Authoring System</a></li>
+        <li><a href="page2.html" data-transition="pop">Programming Language</a></li>
+		<li><a href="#four">Pensyarah</a></li>
+    </ul>
+</div>
+</div>
+
+	<div data-role="header" data-position-"fixed">
+	<a href="#mypanelA" data-icon="home">Menu</a>
+	<p align="center">Introduction to Multimedia (Courseware/Learning Object) and Web Authoring Concepts </p>
+	</div>
+	<div role="main" class="ui-content">
+	<a href="page2.html" data-transition="pop">I'll pop</a>
+	
+<h3>What is Authoring Systems? </h3>
+<li>A program which has pre-programmed elements for the development of interactive multimedia software .</li>
+<li>Authoring systems vary widely in orientation, capabilities, and learning curve.</li>
+<li>Whether you realize it or not, authoring is actually just a speeded-up form of programming; you don't need to know the intricacies of a programming language, or worse, an application programming interface (API), but you do need to understand how programs work (Merrill, 1985).</li>
+</br>
+	<p><a href="#two" class="ui-btn ui-shadow ui-corner-all" data-transition="turn" data-direction = "reverse">Show page "two"</a></p>
+	<p><a href="#three" class="ui-btn ui-shadow ui-corner-all"data-transition="turn" data-direction = "reverse">Show page "three"</a></p>
+	</div>
+	<div data-role="footer" data-position-"fixed">
+		<div data-role = "navbar">
+	<ul>
+	        <li><a href="#one" data-icon="grid" class="ui-btn-active" "ui-state-persist" data-transition="slide" data-direction = "reverse">Introduction</a></li>
+            <li><a href="#two" data-icon="star" data-transition="slide" data-direction = "reverse">Authoring System</a></li>
+            <li><a href="#three" data-icon="gear" data-transition="slide" data-direction = "reverse">Programming Language</a></li>
+    </ul>
+	</div>
+	</div>
+</div>
+<!-- Ini mukasurat kedua -->
+<div data-role="page" id="two">
+<div data-role="panel" data-display="overlay" data-position="right" id="mypanelB"> <!-- by default data-position=right-->
+    <!-- panel content goes here -->
+<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+	<h3>Kandungan</h3>
+    <ul data-role="listview" data-inset="false">
+        <li><a href="#one">Introduction</a></li>
+        <li><a href="#two">Authoring System</a></li>
+        <li><a href="#three">Programming Language</a></li>
+		<li><a href="#four">Pensyarah</a></li>
+    </ul>
+</div>
+</div>
+	<div data-role="header" data-position-"fixed">
+	<a href="#mypanelB" data-icon="home">Menu</a>
+	<p align="center" color="990066">Introduction to Multimedia (Courseware/Learning Object) and Web Authoring Concepts </p>
+	</div>
+	<div role="main" class="ui-content">
+	<h3>What is Authoring Systems? </h3>
+
+	<p>An application development environment for non programmers. The only difference between such tools with a programming language is that a nonprogrammer can learn to use such a tool in a short space of time (relative to that taken to learn a conventional programming language, such as C++ or Pascal) and use it to produce high-quality applications.</p>
+	<p> Example of Authoring Language</p>
+	<img src="gambar/AL.png"/>
+	<p><a href="#one" class="ui-btn ui-shadow ui-corner-all" data-transition="slide" data-direction = "reverse">Show page "one"</a></p>
+	<p><a href="#three" class="ui-btn ui-shadow ui-corner-all"data-transition="slide" data-direction = "reverse">Show page "three"</a></p>
+
+	</div>
+	<div data-role="footer" data-position-"fixed">
+		<div data-role = "navbar">
+	<ul>
+	        <li><a href="#one" data-icon="grid" data-transition="slide" data-direction = "reverse">Introduction</a></li>
+            <li><a href="#two" data-icon="star" class="ui-btn-active" "ui-state-persist" data-transition="slide" data-direction = "reverse">Authoring System</a></li>
+            <li><a href="#three" data-icon="gear" data-transition="slide" data-direction = "reverse">Programming Language</a></li>
+    </ul>
+	</div>
+	</div>
+</div>
+<!-- Ini mukasurat ketiga -->
+<div data-role="page" id="three">
+
+<div data-role="panel" data-display="overlay" data-position="right" id="mypanelC"> <!-- by default data-position=right-->
+    <!-- panel content goes here -->
+<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+	<h3>Kandungan</h3>
+    <ul data-role="listview" data-inset="false">
+        <li><a href="#one">Introduction</a></li>
+        <li><a href="#two">Authoring System</a></li>
+        <li><a href="#three">Programming Language</a></li>
+		<li><a href="#four">Pensyarah</a></li>
+    </ul>
+</div>
+</div>
+
+	<div data-role="header" data-position-"fixed">
+	<a href="#mypanelC" data-icon="home">Menu</a>
+	<p align="center">Introduction to Multimedia (Courseware/Learning Object) and Web Authoring Concepts </p>
+	</div>
+	<div role="main" class="ui-content">
+	<!-- Ini Grid pertama - content dan gambar -->
+	<div class="ui-grid-a ui-responsive">
+	<div class="ui-block-a">
+		<h3>What is Programming Language? </h3>
+
+		<li>Powerful and flexible, Require complicated coding</li>
+		<li>Difficult to learn.</li>
+		<li>Setting up or changing a computer program meant to give a series of instructions to a computer.</li>
+		<li>For example, the instructions ask the computer to do the print on the printer, show a text or graphics on the screen and so on.</li>
+	</div>
+	<div class="ui-block-b">
+		<p> Example of Programming Language</p>
+		<img src="gambar/PL.jpg"/>
+	</div>
+	</div>
+	
+	<div class="ui-grid-b ui-responsive">
+    <div class="ui-block-c"><a href="#one" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Show page "one"</a></div>
+    <div class="ui-block-d"><a href="#two" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Show page "two"</a></div>
+	</div>
+	</div>
+	
+	<div data-role="footer" data-position-"fixed">
+	<div data-role = "navbar">
+	<ul>
+	            <li><a href="#one" data-icon="grid" data-transition="slide" data-direction = "reverse">Introduction</a></li>
+                <li><a href="#two" data-icon="star" data-transition="slide" data-direction = "reverse">Authoring System</a></li>
+                <li><a href="#three" data-icon="gear" class="ui-btn-active" "ui-state-persist" data-transition="slide" data-direction = "reverse">Programming Language</a></li>
+    </ul>
+	</div>
+</div>
+</div>
+<!-- Ini mukasurat keempat -->
+<div data-role="page" id="four">
+<div data-role="panel" data-display="overlay" data-position="right" id="mypanelD"> <!-- by default data-position=right-->
+    <!-- panel content goes here -->
+<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+	<h3>Kandungan</h3>
+    <ul data-role="listview" data-inset="false">
+        <li><a href="#one">Introduction</a></li>
+        <li><a href="#two">Authoring System</a></li>
+        <li><a href="#three">Programming Language</a></li>
+		 <li><a href="#four">Pensyarah</a></li>
+    </ul>
+</div>
+</div>
+
+	<div data-role="header" data-position-"fixed">
+	<a href="#mypanelD" data-icon="home">Menu</a>
+	<p align="center">Introduction to Multimedia (Courseware/Learning Object) and Web Authoring Concepts </p>
+	</div>
+	<div role="main" class="ui-content">
+	<div data-role="popup" id="d1">
+	<a href="tel:+6075534392" class="ui-btn ui-btn-inline">Telefon</a>
+	<a href="sms://+6017106419" class="ui-btn ui-btn-inline">SMS</a>
+	<a href="mailto:norah.utm.@gmail.com" class="ui-btn ui-btn-inline">Email</a>
+	<a href="http://educ.utm.my/norah" class="ui-btn ui-btn-inline">Website</a>
+	</div>
+	<div data-role="popup" id="d2">
+	<a href="tel:+6075534392" class="ui-btn ui-btn-inline">Telefon</a>
+	<a href="sms://+6017106419" class="ui-btn ui-btn-inline">SMS</a>
+	<a href="mailto:norah.utm.@gmail.com" class="ui-btn ui-btn-inline">Email</a>
+	<a href="http://educ.utm.my/norasykin" class="ui-btn ui-btn-inline">Website</a>
+	</div>
+	<!--Senaraikan Pensyarah -->
+	<h3>Pensyarah </h3>
+	<ul data-role="listview" data-inset="true">
+	<li>
+		<a href="#d1" data-rel="popup" data-transition="slideup">
+		<img src="gambar/norah.jpg" width=150"/>
+		<h3>Pn Norah Md Noor</h3>
+		<h5>Universiti Teknologi Malaysia</h5>
+		</a>
+	</li>
+	<li><img src="gambar/sykin.jpg" width=150"/>
+	<a href="#d2" data-rel="popup" data-transition="slideup">
+		<h3>Dr Norasykin Mohd Zaid</h3>
+		<h5>Universiti Teknologi Malaysia</h5></a></li>
+	<li><img src="gambar/nihra.jpg" width=150"/>
+		<h3>Dr Mohd Nihra Haruzuan Mohd Said</h3>
+		<p>Universiti Teknologi Malaysia</h3></li>
+	<li><img src="gambar/fadzli.jpg" width=150"/>
+		<h3>En Mohd Fadzli Ali</h3>
+		<p>Universiti Teknologi Malaysia</h3></li>
+	</ul>
+	</div>
+	
+	<div data-role="footer" data-position-"fixed">
+	<div data-role = "navbar">
+	<ul>
+	            <li><a href="#one" data-icon="grid" data-transition="slide" data-direction = "reverse">Introduction</a></li>
+                <li><a href="#two" data-icon="star" data-transition="slide" data-direction = "reverse">Authoring System</a></li>
+                <li><a href="#three" data-icon="gear" class="ui-btn-active" "ui-state-persist" data-transition="slide" data-direction = "reverse">Programming Language</a></li>
+    </ul>
+	</div>
+</div>
+</div>
+</body> 
+</html> 
